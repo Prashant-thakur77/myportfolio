@@ -49,11 +49,11 @@ export const metadata: Metadata = {
   keywords: SITE_INFO.keywords,
   authors: [
     {
-      name: "ncdai",
+      name: "Prashant-thakur77",
       url: SITE_INFO.url,
     },
   ],
-  creator: "ncdai",
+  creator: "Prashant-thakur77",
   openGraph: {
     siteName: SITE_INFO.name,
     url: "/",
@@ -79,11 +79,11 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: "https://assets.chanhdai.com/images/favicon.ico",
+        url: "https://res.cloudinary.com/dkcrhkz4m/image/upload/v1767192029/Screenshot_2025-12-31_200306_r6v3zw.png",
         sizes: "any",
       },
       {
-        url: "https://assets.chanhdai.com/images/favicon.svg",
+        url: "https://res.cloudinary.com/dkcrhkz4m/image/upload/v1767192029/Screenshot_2025-12-31_200306_r6v3zw.png",
         type: "image/svg+xml",
       },
     ],
