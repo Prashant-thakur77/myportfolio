@@ -1,6 +1,6 @@
 "use client";
 
-import { Collapsible as CollapsiblePrimitive } from "radix-ui";
+import * as CollapsiblePrimitive from "@radix-ui/react-collapsible";
 import { createContext, useContext, useEffect, useRef, useState } from "react";
 
 import type { ChevronsDownUpIconHandle } from "../animated-icons/chevrons-down-up-icon";
