@@ -43,9 +43,6 @@ export default function Page() {
         <About />
         <Separator />
 
-        <TestimonialsMarquee />
-        <Separator />
-
         <GitHubContributions />
         <Separator />
 
