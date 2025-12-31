@@ -17,11 +17,11 @@ export function SiteFooter() {
           Built by{" "}
           <a
             className="link"
-            href="https://x.com/iamncdai"
+            href="https://x.com/2730Thakur12618"
             target="_blank"
             rel="noopener"
           >
-            ncdai
+            Prashant-thakur77
           </a>
           . The source code is available on{" "}
           <a
@@ -34,67 +34,6 @@ export function SiteFooter() {
           </a>
           .
         </p>
-
-        <div className="screen-line-before screen-line-after flex w-full before:z-1 after:z-1">
-          <div className="mx-auto flex items-center justify-center gap-3 border-x border-edge bg-background px-4">
-            <Link
-              className="flex font-mono text-xs font-medium text-muted-foreground"
-              href="/sponsors"
-            >
-              Sponsors
-            </Link>
-
-            <Separator />
-
-            <a
-              className="flex font-mono text-xs font-medium text-muted-foreground"
-              href={`${SITE_INFO.url}/llms.txt`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              llms.txt
-            </a>
-
-            <Separator />
-
-            <a
-              className="flex items-center text-muted-foreground transition-colors hover:text-foreground"
-              href="https://x.com/iamncdai"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Icons.x className="size-4" />
-              <span className="sr-only">X</span>
-            </a>
-
-            <Separator />
-
-            <a
-              className="flex items-center text-muted-foreground transition-colors hover:text-foreground"
-              href={`${SITE_INFO.url}/rss`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <RssIcon className="size-4" />
-              <span className="sr-only">RSS</span>
-            </a>
-
-            <Separator />
-
-            <a
-              className="flex text-muted-foreground transition-colors hover:text-foreground"
-              href={
-                process.env.NEXT_PUBLIC_DMCA_URL ||
-                "https://www.dmca.com/ProtectionPro.aspx"
-              }
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Icons.dmca className="h-4 w-auto sm:h-5" />
-              <span className="sr-only">DMCA.com Protection Status</span>
-            </a>
-          </div>
-        </div>
       </div>
       <div className="pb-[env(safe-area-inset-bottom,0px)]">
         <div className="flex h-2" />
