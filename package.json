@@ -57,6 +57,8 @@
     "lucide-react": "^0.544.0",
     "motion": "^12.18.1",
     "next": "16.1.1",
+    "@radix-ui/react-label": "^1.0.0",
+    "@radix-ui/react-slot": "^1.0.0",
     "next-mdx-remote": "^5.0.0",
     "next-themes": "^0.4.6",
     "nuqs": "^2.8.0",
