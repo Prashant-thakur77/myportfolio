@@ -44,6 +44,7 @@
     "@c15t/nextjs": "^1.8.1",
     "@date-fns/tz": "^1.4.1",
     "@hookform/resolvers": "^4.1.0",
+    "@ncdai/react-wheel-picker": "^1.0.19",
     "@radix-ui/react-collapsible": "^1.1.12",
     "@radix-ui/react-context-menu": "^2.2.16",
     "@radix-ui/react-dialog": "^1.1.15",
