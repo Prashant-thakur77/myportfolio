@@ -1,33 +1,28 @@
 import type { User } from "@/features/portfolio/types/user";
 
 export const USER = {
-  firstName: "Chánh Đại",
-  lastName: "Nguyễn",
-  displayName: "Chánh Đại",
-  username: "ncdai",
+  firstName: "Prashant",
+  lastName: "Thakur",
+  displayName: "Prashant",
+  username: "Prashant-thakur77",
   gender: "male",
   pronouns: "he/him",
-  bio: "Creating with code. Small details matter.",
+  bio: "Building ideas, not just features.",
   flipSentences: [
-    "Creating with code. Small details matter.",
-    "Design Engineer",
+    "Building ideas, not just features.",
+    "Curious by default. Precise by choice.",
     "Open Source Contributor",
   ],
-  address: "Ho Chi Minh City, Viet Nam",
-  phoneNumber: "Kzg0Nzc3ODg4MTQ4", // E.164 format, base64 encoded (https://t.io.vn/base64-string-converter)
-  email: "ZGFpQGNoYW5oZGFpLmNvbQ==", // base64 encoded
-  website: "https://chanhdai.com",
-  jobTitle: "Design Engineer",
+  address: "Himachal Pradesh, India",
+  phoneNumber: "OTAxNTk1NDUwNw==", // E.164 format, base64 encoded (https://t.io.vn/base64-string-converter)
+  email: "cHJhc2hhbnQxMDEwMDdAZ21haWwuY29t", // base64 encoded
+  website: "https://github.com/Prashant-thakur77",
+  jobTitle: "Open Source Developer",
   jobs: [
     {
-      title: "Senior Frontend Developer & UI Lead",
-      company: "Simplamo",
-      website: "https://simplamo.com?ref=IN-926722",
-    },
-    {
-      title: "Founder",
-      company: "Quaric",
-      website: "https://quaric.com",
+      title: "Open Source Developer",
+      company: "learning equality",
+      website: "https://learningequality.org/",
     },
   ],
   //   about: `
@@ -42,32 +37,34 @@ export const USER = {
   // Let's connect and collaborate!
   //   `,
   about: `
-- **Design Engineer** with 5+ years of experience, known for pixel-perfect execution and strong attention to small details.
-- Skilled in **Next.js**, **React**, **TypeScript**, and modern front-end technologies; building high-quality, user-centric web and mobile applications.
-- Passionate about exploring new technologies and turning ideas into reality through polished, thoughtfully crafted personal projects.
-- Creator of [ZaDark](https://zadark.com) (2022): enhances the Zalo experience on PC & Web
-  - 80k+ downloads on [SourceForge](https://sourceforge.net/projects/zadark)
-  - 30k+ active users on the [Chrome Web Store](https://chromewebstore.google.com/detail/llfhpkkeljlgnjgkholeppfnepmjppob)
-- Creator of [React Wheel Picker](https://react-wheel-picker.chanhdai.com): iOS-like wheel picker with inertia scrolling & infinite loop
-  - 10k+ weekly downloads on [npm](https://www.npmjs.com/package/@ncdai/react-wheel-picker)
-  - [▲Vercel OSS Program](https://vercel.com/blog/summer-2025-oss-program#react-wheel-picker) summer 2025 cohort
+- **Computer Science undergraduate** and builder, focused on crafting reliable, scalable, and user-focused software.
+- Skilled in **C++**, **JavaScript**, **TypeScript**, **React**, **Next.js**, **Node.js**, and **Solidity**, with hands-on experience in full-stack and blockchain-based systems.
+- Strong interest in **decentralized systems**, **problem-solving**, and transforming ideas into practical products with clean architecture and thoughtful design.
+- Curious by nature, driven by impact, and motivated to build meaningful products at the intersection of **engineering, open source, and startups**.
+- Active **Open Source Contributor**:
+  - 10+ merged PRs in **Learning Equality (Studio)**, migrating UI from Vuetify to Kolibri Design System (KDS)
+  - Improved accessibility, design consistency, and performance through component-level contributions
+- Executive member at **GDG Hamirpur**, contributing to community building, technical workshops, and national-level tech events.
 `,
-  avatar: "https://assets.chanhdai.com/images/chanhdai-avatar-ghibli.webp",
+
+  avatar:
+    "https://res.cloudinary.com/dkcrhkz4m/image/upload/v1767164303/Prashantth_uqox0y.png",
   ogImage:
     "https://assets.chanhdai.com/images/screenshot-og-image-light.png?v=4",
-  namePronunciationUrl: "/audio/chanhdai.mp3",
-  timeZone: "Asia/Ho_Chi_Minh",
+  namePronunciationUrl: "/audio/Prashantaudio.mp3",
+  timeZone: "Asia/Kolkata",
   keywords: [
-    "ncdai",
-    "nguyenchanhdai",
-    "nguyen chanh dai",
-    "chanhdai",
-    "chanh dai",
-    "iamncdai",
-    "quaric",
-    "zadark",
-    "nguyễn chánh đại",
-    "chánh đại",
+    "prashant thakur",
+    "prashant thakur developer",
+    "software engineer",
+    "full stack developer",
+    "react developer",
+    "next.js",
+    "blockchain developer",
+    "solidity",
+    "open source contributor",
+    "nit hamirpur",
   ],
-  dateCreated: "2023-10-20", // YYYY-MM-DD
+
+  dateCreated: "2025-01-01", // YYYY-MM-DD
 } satisfies User;
