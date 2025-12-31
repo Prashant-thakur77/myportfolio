@@ -359,13 +359,6 @@ export function CommandMenu({ posts }: { posts: Post[] }) {
               <TriangleDashedIcon />
               Brand Guidelines
             </CommandItem>
-
-            <CommandItem asChild>
-              <a href="https://assets.chanhdai.com/chanhdai-brand.zip" download>
-                <DownloadIcon />
-                Download Brand Assets
-              </a>
-            </CommandItem>
           </CommandGroup>
 
           <CommandGroup heading="Theme">
