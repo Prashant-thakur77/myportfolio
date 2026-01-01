@@ -39,7 +39,6 @@ export const USER = {
   about: `
 - **Computer Science undergraduate**(NITH) and builder, focused on crafting reliable, scalable, and user-focused software.
 - Skilled in **C++**, **JavaScript**, **TypeScript**, **React**, **Next.js**, **Node.js**, and **Solidity**, with hands-on experience in full-stack and blockchain-based systems.
-- Strong interest in **decentralized systems**, **problem-solving**, and transforming ideas into practical products with clean architecture and thoughtful design.
 - Executive member at **GDG Hamirpur**, contributing to community building, technical workshops, and national-level tech events.
 - Active **Open Source Contributor**:
   - 10+ merged PRs in **Learning Equality (Studio)**, migrating UI from Vuetify to Kolibri Design System (KDS)
