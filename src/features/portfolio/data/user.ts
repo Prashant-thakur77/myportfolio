@@ -43,7 +43,7 @@ export const USER = {
 - Active **Open Source Contributor**:
   - 10+ merged PRs in **Learning Equality (Studio)**, migrating UI from Vuetify to Kolibri Design System (KDS)
   - Improved accessibility, design consistency, and performance through component-level contributions
-- Competitive Programmer with a **1508 Codeforces Rating (Specialist)**, experienced in algorithmic problem-solving, data structures, and optimization under constraints.
+- Competitive Programmer with a **1517 Codeforces Rating (Specialist)**, experienced in algorithmic problem-solving, data structures, and optimization under constraints.
 `,
 
   avatar:
