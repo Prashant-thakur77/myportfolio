@@ -37,14 +37,14 @@ export const USER = {
   // Let's connect and collaborate!
   //   `,
   about: `
-- **Computer Science undergraduate** and builder, focused on crafting reliable, scalable, and user-focused software.
+- **Computer Science undergraduate**(NITH) and builder, focused on crafting reliable, scalable, and user-focused software.
 - Skilled in **C++**, **JavaScript**, **TypeScript**, **React**, **Next.js**, **Node.js**, and **Solidity**, with hands-on experience in full-stack and blockchain-based systems.
 - Strong interest in **decentralized systems**, **problem-solving**, and transforming ideas into practical products with clean architecture and thoughtful design.
-- Curious by nature, driven by impact, and motivated to build meaningful products at the intersection of **engineering, open source, and startups**.
+- Executive member at **GDG Hamirpur**, contributing to community building, technical workshops, and national-level tech events.
 - Active **Open Source Contributor**:
   - 10+ merged PRs in **Learning Equality (Studio)**, migrating UI from Vuetify to Kolibri Design System (KDS)
   - Improved accessibility, design consistency, and performance through component-level contributions
-- Executive member at **GDG Hamirpur**, contributing to community building, technical workshops, and national-level tech events.
+- Competitive Programmer with a **1508 Codeforces Rating (Specialist)**, experienced in algorithmic problem-solving, data structures, and optimization under constraints.
 `,
 
   avatar:
