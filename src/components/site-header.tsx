@@ -1,4 +1,3 @@
-import dynamic from "next/dynamic";
 import Link from "next/link";
 
 import { DesktopNav } from "@/components/desktop-nav";
@@ -9,14 +8,6 @@ import { cn } from "@/lib/utils";
 import { SiteHeaderMark } from "./site-header-mark";
 import { SiteHeaderWrapper } from "./site-header-wrapper";
 import { ThemeToggle } from "./theme-toggle";
-
-const BrandContextMenu = dynamic(() =>
-  import("@/components/brand-context-menu").then((mod) => mod.BrandContextMenu)
-);
-
-const MobileNav = dynamic(() =>
-  import("@/components/mobile-nav").then((mod) => mod.MobileNav)
-);
 
 export function SiteHeader() {
   return (
@@ -32,15 +23,13 @@ export function SiteHeader() {
         className="screen-line-before screen-line-after mx-auto flex h-12 items-center justify-between gap-2 border-x border-edge px-2 after:z-1 after:transition-[background-color] sm:gap-4 md:max-w-3xl"
         data-header-container
       >
-        <BrandContextMenu>
-          <Link
-            className="has-data-[visible=false]:pointer-events-none [&_svg]:h-8"
-            href="/"
-            aria-label="Home"
-          >
-            <SiteHeaderMark />
-          </Link>
-        </BrandContextMenu>
+        <Link
+          className="has-data-[visible=false]:pointer-events-none [&_svg]:h-8"
+          href="/"
+          aria-label="Home"
+        >
+          <SiteHeaderMark />
+        </Link>
 
         <div className="flex-1" />
 
@@ -50,7 +39,6 @@ export function SiteHeader() {
           <NavItemGitHub />
           <span className="mx-2 flex h-4 w-px bg-border" />
           <ThemeToggle />
-          <MobileNav className="sm:hidden" items={MAIN_NAV} />
         </div>
       </div>
     </SiteHeaderWrapper>

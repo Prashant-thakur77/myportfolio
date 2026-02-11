@@ -13,24 +13,6 @@ export function SiteFooter() {
           Built with inspiration from{" "}
           <a
             className="link"
-            href="https://tailwindcss.com"
-            target="_blank"
-            rel="noopener"
-          >
-            Tailwind CSS
-          </a>
-          ,{" "}
-          <a
-            className="link"
-            href="https://ui.shadcn.com"
-            target="_blank"
-            rel="noopener"
-          >
-            shadcn/ui
-          </a>
-          , and{" "}
-          <a
-            className="link"
             href="https://github.com/ncdai/chanhdai.com"
             target="_blank"
             rel="noopener"
