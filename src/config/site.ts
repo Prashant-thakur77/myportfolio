@@ -14,20 +14,7 @@ export const META_THEME_COLORS = {
   dark: "#09090b",
 };
 
-export const MAIN_NAV: NavItem[] = [
-  {
-    title: "Portfolio",
-    href: "/",
-  },
-  {
-    title: "Components",
-    href: "/components",
-  },
-  {
-    title: "Blog",
-    href: "/blog",
-  },
-];
+export const MAIN_NAV: NavItem[] = [];
 
 export const GITHUB_USERNAME = "Prashant-thakur77";
 
