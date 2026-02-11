@@ -10,7 +10,25 @@ export function SiteFooter() {
     <footer className="max-w-screen overflow-x-hidden px-2">
       <div className="screen-line-before mx-auto border-x border-edge pt-4 md:max-w-3xl">
         <p className="mb-1 px-4 text-center font-mono text-sm text-balance text-muted-foreground">
-          Inspired by tailwindcss.com,ui.shadcn.com &{" "}
+          Built with inspiration from{" "}
+          <a
+            className="link"
+            href="https://tailwindcss.com"
+            target="_blank"
+            rel="noopener"
+          >
+            Tailwind CSS
+          </a>
+          ,{" "}
+          <a
+            className="link"
+            href="https://ui.shadcn.com"
+            target="_blank"
+            rel="noopener"
+          >
+            shadcn/ui
+          </a>
+          , and{" "}
           <a
             className="link"
             href="https://github.com/ncdai/chanhdai.com"
@@ -22,14 +40,14 @@ export function SiteFooter() {
         </p>
 
         <p className="mb-4 px-4 text-center font-mono text-sm text-balance text-muted-foreground">
-          Modified by{" "}
+          Designed & developed by{" "}
           <a
             className="link"
             href="https://x.com/2730Thakur12618"
             target="_blank"
             rel="noopener"
           >
-            Prashant-thakur77
+            Prashant Thakur
           </a>
           . The source code is available on{" "}
           <a

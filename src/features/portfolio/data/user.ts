@@ -3,7 +3,7 @@ import type { User } from "@/features/portfolio/types/user";
 export const USER = {
   firstName: "Prashant",
   lastName: "Thakur",
-  displayName: "Prashant",
+  displayName: "Prashant Thakur",
   username: "Prashant-thakur77",
   gender: "male",
   pronouns: "he/him",
